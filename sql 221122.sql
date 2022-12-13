@@ -284,7 +284,7 @@ create view emp_copy as select * from employees limit 100;
 
 create view emp_maria as select * from employees where first_name = 'maria' and gender = 'F';
 
-select * from employees where first_name = 'maria' and gender = 'f';
+select * from employees where first_name = 'maria' and gender = 'F';
 
 -- 외부 사용자 (다른 업체 개발자)에게 특정 테이블 사용 권한 주기
 -- 실제 테이블의 사용권한을 외부 사용자에게 주면 보안 관련 문제가 발생함
